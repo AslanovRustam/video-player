@@ -3,6 +3,7 @@ import Logo from "../../assets/logo.svg";
 import Avatar from "../../assets/avatar.svg";
 import s from "./header.module.scss";
 import { Suspense } from "react";
+import BreadСrumbs from "../BreadСrumbs/BreadСrumbs";
 
 function Header() {
   return (
@@ -31,6 +32,7 @@ function Header() {
         </nav>
         <Avatar className={s.icon} />
       </div>
+      <BreadСrumbs />
       <Suspense fallback={null}>
         <Outlet />
       </Suspense>

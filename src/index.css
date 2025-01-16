@@ -2,7 +2,6 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  width: 100%;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
 
@@ -21,12 +20,16 @@
   --gray-300: #d1d5db;
   --gray-400: #9ca3af;
   --gray-300: #d1d5db;
+  --gray-inactive: #8d8b91;
   --rose-500: #f43f5e;
   --rose-600: #e11d48;
   --white: #e1e1e6;
 
   /* size */
   --main-padding: 212px;
+
+  /* helpers */
+  --transition: all 0.3s ease-in-out;
 }
 
 html {
